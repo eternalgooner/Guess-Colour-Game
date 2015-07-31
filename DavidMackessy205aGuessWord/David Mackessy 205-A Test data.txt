@@ -1,0 +1,48 @@
+DAVID MACKESSY 205-A
+GUESS WORD APP
+
+TEST DATA
+23/07/2015
+
+There are no run-time errors in the program.
+I have carried out the following tests to make sure that the program conforms to the design specification.
+
+
+TEST NUMBER:1
+1 - When pressing the "START" button I expected to see the next current word 	displayed in asterisks form.
+1 - Actual output was as expected.
+
+
+TEST NUMBER:2
+2 - When pressing the "ANSWER" button I expected to see the current word 	displayed in its original form.
+2 - Actual output was as expected.
+
+
+TEST NUMBER:3
+3 - When pressing the "START" button I expected to see the lives counter 	reset and displayed as 8 in the appropriate field.
+3 - Actual output was as expected.
+
+
+TEST NUMBER:4
+4 - When pressing the "ANSWER" button I expected to clear the Guesses 		Remaining field.
+4 - Actual output was as expected.
+
+
+TEST NUMBER:5
+5 - When pressing a letter button, if the letter guessed was in the current 	word, I expected it to show the letter instead of the asterisk in its 	place and redisplay as an updated word.
+5 - Actual output was as expected.
+
+
+TEST NUMBER:6
+6 - When pressing a letter button, if the letter guessed was not in the 	current word, I expected the lives counter to be decremented & 		redisplayed with its new value, in the appropriate field. 
+6 - Actual output was as expected.
+
+
+TEST NUMBER:7
+7 - When the word has been guessed correctly and has more than 0 lives, I 	expected to see a dialog box displaying the message "You Win".
+7 - Actual output was as expected.
+
+
+TEST NUMBER:8
+8 - When all lives have been used and the word has not been guessed 		correctly, I expected to see a dialog box with the message "You Lose".
+8 - Actual output was as expected.
